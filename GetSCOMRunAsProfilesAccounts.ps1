@@ -1,12 +1,12 @@
 #=======================================================
 # Get all SCOM RunAs Accounts and their Profiles Script
-# v 1.0
+# v 1.1
 #=======================================================
 
 # Constants section - make changes here
 #=======================================================
-$ManagementServer = "scoma1.opsmgr.net"
-$OutCsvPath = "C:\bin\out.csv"
+$ManagementServer = "localhost"
+$OutCsvPath = "C:\windows\temp\out.csv"
 #=======================================================
 
 #Set Empty Profile Associated Text
